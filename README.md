@@ -56,7 +56,7 @@ We conduct our experiments on four benchmark trajectory datasets. The overall st
 ### Porto
 
 * Porto contains taxi traces over 8 months in the city of Porto, Portugal.
-* Download the preprocessed dataset ``porto.xz`` from [Google Drive](https://drive.google.com/drive/folders/13bEAx5l2XZhDxurbm482VRF9fYdy_3j7?usp=sharing) or [website_part1](https://zealscott.com/files/datasets/trajectory/porto.xz), and locate them into `./LDPTrace/data/` dictionary.
+* Download the preprocessed dataset ``porto.xz`` from [Google Drive](https://drive.google.com/drive/folders/13bEAx5l2XZhDxurbm482VRF9fYdy_3j7?usp=sharing) or [website_part1](https://zealscott.com/files/datasets/trajectory/porto.7z), and locate them into `./LDPTrace/data/` dictionary.
 
 ### Hangzhou
 
@@ -66,7 +66,7 @@ We conduct our experiments on four benchmark trajectory datasets. The overall st
 ### Campus
 
 * Campus contains 1 million generated trajectories based on the buildings of British Columbia campus.
-* Download the preprocessed dataset ``campus.xz`` from [Google Drive](https://drive.google.com/drive/folders/13bEAx5l2XZhDxurbm482VRF9fYdy_3j7?usp=sharing) or [website_part2](https://zealscott.com/files/datasets/trajectory/campus.xz), and locate them into `./LDPTrace/data/` dictionary.
+* Download the preprocessed dataset ``campus.xz`` from [Google Drive](https://drive.google.com/drive/folders/13bEAx5l2XZhDxurbm482VRF9fYdy_3j7?usp=sharing) or [website_part2](https://zealscott.com/files/datasets/trajectory/campus.7z), and locate them into `./LDPTrace/data/` dictionary.
 
 ## Reproducibility & Run
 
