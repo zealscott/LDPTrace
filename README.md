@@ -8,6 +8,8 @@ This is our Python implementation for the paper:
 
 > Yuntao Du, Yujia Hu, Zhikun Zhang, Ziquan Fang, Lu Chen, Baihua Zheng and Yunjun Gao (2023). LDPTrace: Locally Differentially Private Trajectory Synthesis.  Paper in [arXiv](https://arxiv.org/abs/2302.06180). In VLDB'23, Vancouver, Canada, August 28 to September 1, 2023.
 
+See our [blog](https://blog.zealscott.com/2023-04-22-ldptrace/) for the gentle introduction to this work.
+
 ## Environment Requirements
 
 - Ubuntu OS
@@ -98,7 +100,7 @@ The running parameters include:
 
 ## Acknowledgement
 
-Any scientific publications that use our datasets should cite the following paper as the reference:
+Any scientific publications that use our datasets/codes or mention our work should cite the following paper as the reference:
 
 ```
 @inproceedings{LDPTrace,
