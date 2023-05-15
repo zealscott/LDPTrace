@@ -6,9 +6,9 @@
 
 This is our Python implementation for the paper:
 
-> Yuntao Du, Yujia Hu, Zhikun Zhang, Ziquan Fang, Lu Chen, Baihua Zheng and Yunjun Gao (2023). LDPTrace: Locally Differentially Private Trajectory Synthesis.  Paper in [arXiv](https://arxiv.org/abs/2302.06180). In VLDB'23, Vancouver, Canada, August 28 to September 1, 2023.
+> Yuntao Du, Yujia Hu, Zhikun Zhang, Ziquan Fang, Lu Chen, Baihua Zheng and Yunjun Gao (2023). LDPTrace: Locally Differentially Private Trajectory Synthesis.  Paper in [arXiv](https://arxiv.org/abs/2302.06180) or [PVLDB](https://www.vldb.org/pvldb/vol16/p1897-gao.pdf). In VLDB'23, Vancouver, Canada, August 28 to September 1, 2023.
 
-See our [blog](https://blog.zealscott.com/2023-04-22-ldptrace/) for the gentle introduction to this work.
+See our [blog](https://research.zealscott.com/blog/2023/04/22/LDPTrace/) for the introduction to this work.
 
 ## Environment Requirements
 
@@ -111,8 +111,9 @@ Any scientific publications that use our datasets/codes or mention our work shou
                Lu Chen and 
                Baihua Zheng and 
                Yunjun Gao},
-  title     = {{LDPTrace}: Locally Differentially Private Trajectory Synthesis.},
+  title     = {{LDPTrace}: Locally Differentially Private Trajectory Synthesis},
   booktitle = {{PVLDB}},
+  pages     = {1897--1909},
   year      = {2023}
 }
 ```
