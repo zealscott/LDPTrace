@@ -149,6 +149,9 @@ class OUEClient(LDPClient):
         # If y=1, Prob(y'=0)=p
         if random.random() < self.p:
             perturbed_data[index] = 1
+        else:
+            perturbed_data[index] = 0
+
         return perturbed_data
 
     def privatise(self, data):
