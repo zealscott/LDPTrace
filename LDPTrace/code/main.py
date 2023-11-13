@@ -77,17 +77,17 @@ def estimate_max_length(grid_db: List[List[Grid]], epsilon):
 
 
 def update_markov_prob(grid_db: List[List[Grid]], epsilon, max_len=36):
-    ldp_server = ldp.OUEServer(epsilon / max_len, grid_map.size * 8,
+    ldp_server = ldp.OUEServer(epsilon / (max_len+1), grid_map.size * 8,
                                lambda x: x)
-    ldp_client = ldp.OUEClient(epsilon / max_len, grid_map.size * 8,
+    ldp_client = ldp.OUEClient(epsilon / (max_len+1), grid_map.size * 8,
                                lambda x: x)
-    start_server = ldp.OUEServer(epsilon / max_len, grid_map.size,
+    start_server = ldp.OUEServer(epsilon / (max_len+1), grid_map.size,
                                  lambda x: map_func.grid_index_map_func(x, grid_map))
-    start_client = ldp.OUEClient(epsilon / max_len, grid_map.size,
+    start_client = ldp.OUEClient(epsilon / (max_len+1), grid_map.size,
                                  lambda x: map_func.grid_index_map_func(x, grid_map))
-    end_server = ldp.OUEServer(epsilon / max_len, grid_map.size,
+    end_server = ldp.OUEServer(epsilon / (max_len+1), grid_map.size,
                                lambda x: map_func.grid_index_map_func(x, grid_map))
-    end_client = ldp.OUEClient(epsilon / max_len, grid_map.size,
+    end_client = ldp.OUEClient(epsilon / (max_len+1), grid_map.size,
                                lambda x: map_func.grid_index_map_func(x, grid_map))
 
     for t in grid_db:
